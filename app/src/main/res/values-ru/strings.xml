@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Пользователи GitHub</string>
+    
+    <!-- Navigation -->
+    <string name="nav_users">Пользователи GitHub</string>
+    <string name="nav_repositories">Репозитории</string>
+    <string name="nav_favorites">Избранное</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_done">Готово</string>
+    
+    <!-- Search -->
+    <string name="search_placeholder">Поиск пользователей…</string>
+    <string name="search_recent">Недавние поиски</string>
+    <string name="search_clear">Очистить</string>
+    <string name="search_no_results">Пользователи не найдены</string>
+    <string name="search_try_different">Попробуйте другой поисковый запрос</string>
+    <string name="search_start">Поиск пользователей GitHub</string>
+    <string name="search_enter_username">Введите имя пользователя для начала поиска</string>
+    
+    <!-- User -->
+    <string name="user_repos">Репозитории</string>
+    <string name="user_followers">Подписчики</string>
+    <string name="user_following">Подписки</string>
+    <string name="user_open_profile">Открыть профиль GitHub</string>
+    <string name="user_not_found">Пользователь не найден</string>
+    <string name="user_avatar">Аватар пользователя %1$s</string>
+    
+    <!-- Repository -->
+    <string name="repo_stars">Звёзды</string>
+    <string name="repo_forks">Форки</string>
+    <string name="repo_watchers">Наблюдатели</string>
+    <string name="repo_issues">Проблемы</string>
+    <string name="repo_open_safari">Открыть в браузере</string>
+    <string name="repo_share_clone">Поделиться URL клонирования</string>
+    <string name="repo_no_repositories">Репозитории не найдены</string>
+    <string name="repo_try_filters">Попробуйте изменить фильтры</string>
+    <string name="repo_tap_details">Нажмите для деталей</string>
+    <string name="repo_repositories">репозиториев</string>
+    
+    <!-- Repository Detail -->
+    <string name="repo_detail_dates">Даты</string>
+    <string name="repo_detail_created">Создан</string>
+    <string name="repo_detail_updated">Обновлён</string>
+    <string name="repo_detail_pushed">Последний push</string>
+    <string name="repo_detail_topics">Темы</string>
+    <string name="repo_detail_private">Приватный</string>
+    <string name="repo_detail_archived">Архивирован</string>
+    <string name="repo_detail_fork">Форк</string>
+    
+    <!-- Favorites -->
+    <string name="favorites_title">Избранное</string>
+    <string name="favorites_empty">Пока нет избранного</string>
+    <string name="favorites_add_hint">Добавьте пользователей в избранное, чтобы увидеть их здесь</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_about">О приложении</string>
+    <string name="settings_storage">Хранилище</string>
+    <string name="settings_clear_cache">Очистить кэш</string>
+    <string name="settings_cache_cleared">Кэш успешно очищен</string>
+    <string name="settings_cache_description">Очистка кэша удалит все кэшированные данные. Вам понадобится интернет-соединение для загрузки данных снова.</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_theme_system">Системная</string>
+    <string name="settings_theme_light">Светлая</string>
+    <string name="settings_theme_dark">Тёмная</string>
+    
+    <!-- Sort -->
+    <string name="sort_title">Параметры сортировки</string>
+    <string name="sort_by">Сортировать по</string>
+    <string name="sort_order">Порядок</string>
+    <string name="sort_created">Дате создания</string>
+    <string name="sort_updated">Дате обновления</string>
+    <string name="sort_pushed">Дате push</string>
+    <string name="sort_name">Имени</string>
+    <string name="sort_stars">Звёздам</string>
+    <string name="sort_ascending">По возрастанию</string>
+    <string name="sort_descending">По убыванию</string>
+    
+    <!-- Filters -->
+    <string name="filter_all_languages">Все языки</string>
+    <string name="filter_language">Язык</string>
+    
+    <!-- Actions -->
+    <string name="action_share">Поделиться</string>
+    <string name="action_open">Открыть</string>
+    <string name="action_open_safari">Открыть в браузере</string>
+    <string name="action_retry">Повторить</string>
+    
+    <!-- States -->
+    <string name="state_loading">Загрузка…</string>
+    <string name="state_error">Ошибка</string>
+    <string name="state_no_more_users">Больше нет пользователей</string>
+    <string name="state_no_more_repos">Больше нет репозиториев</string>
+    
+    <!-- Errors -->
+    <string name="error_network">Ошибка сети</string>
+    <string name="error_not_found">Пользователь не найден</string>
+    <string name="error_unauthorized">Несанкционированный доступ</string>
+    <string name="error_rate_limit">Превышен лимит запросов. Пожалуйста, попробуйте позже.</string>
+    <string name="error_unknown">Произошла неизвестная ошибка</string>
+    <string name="error_validation_failed">Ошибка валидации</string>
+    
+    <!-- Alerts -->
+    <string name="alert_clear_cache_title">Очистить кэш</string>
+    <string name="alert_clear_cache_message">Вы уверены, что хотите очистить все кэшированные данные? Это действие нельзя отменить.</string>
+    <string name="alert_clear_cache_cancel">Отмена</string>
+    <string name="alert_clear_cache_confirm">Очистить</string>
+    
+    <!-- App Info -->
+    <string name="app_version">Версия</string>
+    <string name="app_build">Сборка</string>
+    
+    <!-- Accessibility -->
+    <string name="accessibility_user_avatar">Аватар пользователя %1$s</string>
+    <string name="accessibility_favorite_button">Добавить в избранное</string>
+    <string name="accessibility_remove_favorite_button">Удалить из избранного</string>
+    <string name="accessibility_search_button">Поиск</string>
+    <string name="accessibility_settings_button">Открыть настройки</string>
+    <string name="accessibility_favorites_button">Открыть избранное</string>
+</resources>
+
