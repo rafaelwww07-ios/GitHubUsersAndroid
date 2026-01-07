@@ -123,6 +123,12 @@ cd GitHubUsersAndroid
 
 ## 🎨 Screenshots
 
+<div align="center">
+
+![GitHub Users Android App](GitUserAndroid.png)
+
+</div>
+
 Приложение включает следующие экраны:
 
 - **Список пользователей** - Поиск и просмотр пользователей GitHub
